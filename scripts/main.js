@@ -7,6 +7,13 @@ const randomUser = () => {
 })
 }
 
+const navElement = document.querySelector("#randomUser");
+
+navElement.addEventListener("click", (event) => {
+	randomUser();
+})
+
 randomUser();
+
 
 console.log("You look marvelous!")
